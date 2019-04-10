@@ -19,3 +19,8 @@
 - [x] local/formal offset relative to `$fp`
 - [x] global var label name allocation done in `nameAnalysis`
 - [x] all variables are assumed to be 4 bytes since we only have int and bool
+
+# How to run this project
+- A single `make` should be enough
+- Some test cases are in the `tests` folder. You need to `mv` them to `test.cmm` before `make test`
+- You need `spim` to run the generated `test.s` assembly.
